@@ -1,4 +1,4 @@
-# pixie-cli [![NPM version](https://badge.fury.io/js/pixie-cli.svg)](https://npmjs.org/package/pixie-cli) [![Build Status](https://travis-ci.org/jamen/pixie-cli.svg?branch=master)](https://travis-ci.org/jamen/pixie-cli)
+# pixie-cli [![NPM version](https://badge.fury.io/js/pixie-cli.svg)](https://npmjs.org/package/pixie-cli)
 
 > Create and compile templates from the command line.
 
@@ -19,9 +19,7 @@ echo '[["Hello ","?\\n"],["world"]]' |
 # Hello Earth?
 ```
 
-CLI wrapper over [`pixie`](https://github.com/jamen/pixie), to easily create and compile templates from command line.
-
-You can also use a `.pixierc` file, or any [other methods the `rc` module supports](https://github.com/dominictarr/rc#standards)
+CLI wrapper over [`pixie`](https://github.com/jamen/pixie), to easily create and compile templates from command line.  You can also use a `.pixierc` file, or any [other methods the `rc` module supports](https://github.com/dominictarr/rc#standards)
 
 ## Installation
 
