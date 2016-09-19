@@ -1,7 +1,7 @@
 {
   "name": "pixie-cli",
   "description": "Create and compile templates from the command line.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "pixie": "./index.js"
   },
