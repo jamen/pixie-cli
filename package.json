@@ -1,0 +1,31 @@
+{
+  "name": "pixie-cli",
+  "description": "Create and compile templates from the command line.",
+  "version": "0.0.0",
+  "bin": {
+    "pixie": "./index.js"
+  },
+  "homepage": "https://github.com/jamen/pixie-cli",
+  "author": "Jamen Marz (https://github.com/jamen)",
+  "repository": "jamen/pixie-cli",
+  "bugs": {
+    "url": "https://github.com/jamen/pixie-cli/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "generategenerator"
+  ],
+  "dependencies": {
+    "pixie": "^0.2.2",
+    "rc": "^1.1.6"
+  }
+}
