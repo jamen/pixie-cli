@@ -22,22 +22,21 @@ function main (source) {
   var data = rc('pixie')
   var config = data.config || {}
 
+  // Compiling input
   if (action === 'compile') {
     var template = JSON.parse(source)
     var output = pixie.compile(template, data, config)
     return process.stdout.write(output)
   }
 
+  // Parsing input
   if (action === 'parse') {
     var template = pixie.parse(source.toString(), config)
     var output = JSON.stringify(template)
     return process.stdout.write(output)
   }
 
-  if (action === 'render') {
-    var output = pixie.render(source.toString(), data, config)
-    return process.stdout.write(output)
-  }
-
-  console.error('Unknown action "' + action + '"')
+  // Default to rendering
+  var output = pixie.render(source.toString(), data, config)
+  return process.stdout.write(output)
 }
