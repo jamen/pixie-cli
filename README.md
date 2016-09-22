@@ -4,18 +4,15 @@
 
 ```sh
 # Rendering:
-echo "Foo {{bar}} baz" |
-  pixie --bar='BLAG'
+echo "Foo {{bar}} baz" | pixie --bar='BLAG'
 # Foo BLAG baz
 
 # Parsing:
-echo "Hello {{world}}?" |
-  pixie parse
+echo "Hello {{world}}?" | pixie parse
 # [["Hello ","?\n"],["world"]]
 
 # Compiling (template above):
-echo '[["Hello ","?\\n"],["world"]]' |
-  pixie compile --world='Earth'
+echo '[["Hello ","?\\n"],["world"]]' | pixie compile --world='Earth'
 # Hello Earth?
 ```
 
