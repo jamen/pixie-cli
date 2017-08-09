@@ -22,7 +22,7 @@
     "generategenerator"
   ],
   "dependencies": {
-    "pixie": "^0.2.2",
+    "pixie": "^1.2.0",
     "rc": "^1.1.6"
   }
 }
